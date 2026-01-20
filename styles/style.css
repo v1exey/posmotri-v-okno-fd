@@ -131,8 +131,8 @@ ol {
 }
 
 .search-form__label:has(:focus-visible) {
-  outline: 2px solid #ffffff;
-  outline-offset: 4px;
+  outline: 1px solid #ffffff;
+  outline-offset: 1px;
 }
 
 .search-form__textfield {
@@ -221,7 +221,7 @@ ol {
 }
 
 .content__list-item {
-  padding: 1 3px;
+  padding: 0 3px;
 }
 
 .content__card-link {
@@ -270,6 +270,7 @@ ol {
   overflow: hidden;
   text-overflow: ellipsis;
   line-height: 1;
+  max-width: 196px;
 }
 
 .content__video-card-description {
